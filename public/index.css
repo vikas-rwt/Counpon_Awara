@@ -1,0 +1,176 @@
+@font-face {
+  font-family: AmazonEmber;
+  src: url("../public/fonts/Ember/AmazonEmber_Rg.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'AmazonEmber', Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+nav {
+  width: 100%;
+  padding: 25px 0;
+  background: #212529;
+}
+
+.search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  color: #fff;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  background: #212529;
+  padding: 15px;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+
+.search_input {
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+
+#logo {
+  max-width: 10%;
+}
+
+.logo_img {
+  max-width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+.nav__links {
+  padding: 0 10px;
+  text-align: right;
+  color: white;
+}
+
+.nav__links:hover {
+  color: #eee;
+}
+
+#body {
+  height: 100vh;
+  width: 100%;
+  background-color: #c4c4c4;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 50px;
+  height: auto;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+footer li {
+  padding: 17px 0;
+  border-bottom: 1px solid #d8d8d8;
+  width: 200px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  color: #c4c4c4;
+}
+
+footer h6 {
+  margin-bottom: 25px;
+}
+
+footer p {
+  opacity: 0.5;
+  font-size: 14px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+footer .logo_img {
+  max-width: 50%;
+  height: auto;
+}
+
+footer .newsletter__email {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  outline: none;
+  height: 40px;
+  font-size: 12px;
+}
+
+footer .contact_subscribe {
+  width: 100%;
+  background: #eb5d1e;
+  border: none;
+  height: 40px;
+}
+
+#copyright {
+  background: #000;
+  padding: 20px 0;
+}
+
+#copyright .right-section {
+  color: #c4c4c4;
+  font-size: 12px;
+}
+
+#copyright .social-media {
+  color: #fff;
+}
+
+#copyright .social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#copyright .social-media ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+#copyright .social-media a {
+  color: inherit;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */
